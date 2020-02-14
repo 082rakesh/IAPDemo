@@ -3,7 +3,7 @@
 //  IAPDemo
 //
 //  Created by rakesh.e.mishra on 18/01/20.
-//  Copyright © 2019 Accenture. All rights reserved.
+//  Copyright © 2020 Accenture. All rights reserved.
 //
 
 import UIKit
@@ -120,7 +120,6 @@ class SoundDetailViewController: UIViewController {
     @IBAction func buyButtonAction(_ sender: Any) {
         showMessage()
     }
-    
     /**
      Displays the error details for the received error
      - Parameter error: The error received
