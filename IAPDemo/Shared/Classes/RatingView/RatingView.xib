@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RatingView" customModule="IAPDemo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="66" height="12"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="H4v-EL-NdG">
+                    <rect key="frame" x="0.0" y="0.5" width="66" height="11"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOutlineBlack" translatesAutoresizingMaskIntoConstraints="NO" id="fvs-JS-iFY">
+                            <rect key="frame" x="0.0" y="0.0" width="11" height="11"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOutlineBlack" translatesAutoresizingMaskIntoConstraints="NO" id="M0U-Zl-Dzk">
+                            <rect key="frame" x="14" y="0.0" width="10.5" height="11"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOutlineBlack" translatesAutoresizingMaskIntoConstraints="NO" id="4gP-rw-OJB">
+                            <rect key="frame" x="27.5" y="0.0" width="11" height="11"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOutlineBlack" translatesAutoresizingMaskIntoConstraints="NO" id="SkP-Gi-Hc4">
+                            <rect key="frame" x="41.5" y="0.0" width="10.5" height="11"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StarOutlineBlack" translatesAutoresizingMaskIntoConstraints="NO" id="m8K-kk-bcR">
+                            <rect key="frame" x="55" y="0.0" width="11" height="11"/>
+                        </imageView>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="H4v-EL-NdG" secondAttribute="bottom" constant="0.5" id="BOm-JH-YFh"/>
+                <constraint firstItem="H4v-EL-NdG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Hef-ni-a9L"/>
+                <constraint firstAttribute="trailing" secondItem="H4v-EL-NdG" secondAttribute="trailing" id="Yfp-Mf-zHJ"/>
+                <constraint firstItem="H4v-EL-NdG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="0.5" id="aVQ-9c-GN7"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="ratingImageViewFive" destination="m8K-kk-bcR" id="pfL-Gf-y4l"/>
+                <outlet property="ratingImageViewFour" destination="SkP-Gi-Hc4" id="vvc-UW-erB"/>
+                <outlet property="ratingImageViewOne" destination="fvs-JS-iFY" id="xSY-ff-sG4"/>
+                <outlet property="ratingImageViewThree" destination="4gP-rw-OJB" id="bPW-C7-jyo"/>
+                <outlet property="ratingImageViewTwo" destination="M0U-Zl-Dzk" id="q72-qV-hbl"/>
+            </connections>
+            <point key="canvasLocation" x="138.40000000000001" y="153.82308845577214"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="StarOutlineBlack" width="23" height="23"/>
+    </resources>
+</document>

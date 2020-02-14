@@ -1,0 +1,24 @@
+/* 
+  Localizable.strings
+  IAPDemo
+
+  Created by rakesh.e.mishra on 14/01/20.
+  Copyright © 2019 Accenture. All rights reserved.
+*/
+
+"EntrainmentLibrary.title" = "Sound Library";
+"EntrainmentLibrary.introduction" = "Tap on an entertainment sound to purchase or learn more about it.";
+"EntrainmentLibrary.about" = "About Entertainment";
+"EntrainmentLibrary.fileLoadFailed" = "Failed to load sound files!";
+"SoundDetails.title" = "Sound Details";
+"SoundDetails.buyFor" = "Buy for $%.2f";
+
+"AboutEntrainment.gotit" = "Got It";
+"AboutEntrainment.title" = "About Entertainment";
+
+"AboutEntrainment.Introduction_title_page0" = "What is entertainment?";
+"AboutEntrainment.Introduction_details_page0" = "Your body contains an autonomic mechanism that syncs you up with strong, external rhythms, pulses or beats, a phenomenon known as entertainment.";
+"AboutEntrainment.Introduction_title_page1" = "How does entertainment help you sleep better?";
+"AboutEntrainment.Introduction_details_page1" = "By breathing in a paced rhythm, you help yourself relax, enabling you to fall asleep faster and stay asleep longer.";
+"AboutEntrainment.Introduction_title_page2" = "How does entertainment help you sleep better?";
+"AboutEntrainment.Introduction_details_page2" = "Purchase and download a sound from the entertainment sound library. Then transfer it to your buds.";
