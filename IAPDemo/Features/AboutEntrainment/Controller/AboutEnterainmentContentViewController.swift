@@ -69,6 +69,6 @@ class AboutEnterainmentContentViewController: UIViewController {
      Got it button action method
      */
     @IBAction func didTapGotItButton(_ sender: Any) {
-        self.navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
     }
 }

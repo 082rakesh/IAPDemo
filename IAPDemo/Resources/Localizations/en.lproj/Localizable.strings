@@ -22,3 +22,6 @@
 "AboutEntrainment.Introduction_details_page1" = "By breathing in a paced rhythm, you help yourself relax, enabling you to fall asleep faster and stay asleep longer.";
 "AboutEntrainment.Introduction_title_page2" = "How does entertainment help you sleep better?";
 "AboutEntrainment.Introduction_details_page2" = "Purchase and download a sound from the entertainment sound library. Then transfer it to your buds.";
+
+"buyButtonActionMessage" = "In-App purchase setup is not available.";
+"buyButtonActionMessageTitle" = "In-App purchase";

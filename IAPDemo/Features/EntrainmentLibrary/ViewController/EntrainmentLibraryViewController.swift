@@ -13,7 +13,6 @@ import UIKit
  */
 class EntrainmentLibraryViewController: UIViewController {
 
-    @IBOutlet weak var introductionLabel: UILabel!
     @IBOutlet weak var aboutEntrainmentButton: UIButton!
     @IBOutlet weak var tableView: UITableView!
 
@@ -35,8 +34,6 @@ class EntrainmentLibraryViewController: UIViewController {
      */
     private func setUpUI() {
         title = NSLocalizedString("EntrainmentLibrary.title", comment: "Entrainment Library")
-        introductionLabel.text = NSLocalizedString("EntrainmentLibrary.introduction",
-                                                   comment: "Entrainment Introduction")
         setUpAboutEntrainmentButton()
         setUpTableView()
     }

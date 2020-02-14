@@ -116,4 +116,24 @@ class SoundDetailViewController: UIViewController {
         ratingBgView.addSubview(soundRatingView)
 
     }
+
+    @IBAction func buyButtonAction(_ sender: Any) {
+        showMessage()
+    }
+    
+    /**
+     Displays the error details for the received error
+     - Parameter error: The error received
+     */
+    private func showMessage() {
+        let localisedMessageString = String.localizedStringWithFormat(NSLocalizedString("buyButtonActionMessage", comment: "buy Action"))
+        let localisedTitleString = String.localizedStringWithFormat(NSLocalizedString("buyButtonActionMessageTitle", comment: "buy Action"))
+
+        let alertController = UIAlertController(title: localisedTitleString,
+                                                message: localisedMessageString,
+                                                preferredStyle: .alert)
+        let alertActionOk = UIAlertAction(title: Constants.EntrainmentLibrary.actionOk, style: .default, handler: nil)
+        alertController.addAction(alertActionOk)
+        present(alertController, animated: true, completion: nil)
+    }
 }

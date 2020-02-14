@@ -31,8 +31,8 @@ enum Constants {
     }
 
     enum EntrainmentLibrary {
-//        static let entrainmentSoundsFilePath = "https://s3.amazonaws.com/bktdemo/entrainmentlist.json"
-        static let entrainmentSoundsFilePath = "https://bktiapdemo.s3.us-east-2.amazonaws.com/entrainment_sounds.json"
+        static let entrainmentSoundsFilePath = "https://s3.amazonaws.com/bktdemo/entrainmentlist.json"
+//        static let entrainmentSoundsFilePath = "https://bktiapdemo.s3.us-east-2.amazonaws.com/entrainment_sounds.json"
         static let entrainmentSoundsFileName = "entrainment_sounds.json"
         static let error = "Error"
         static let actionOk = "OK"
